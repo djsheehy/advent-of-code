@@ -6,6 +6,8 @@ import (
 	"./knothash"
 )
 
+// Part 2 doesn't work for some reason >:(
+
 func main() {
 	input := []int{183, 0, 31, 146, 254, 240, 223, 150, 2, 206, 161, 1, 255, 232, 199, 88}
 	text := []rune("1,2,3")
