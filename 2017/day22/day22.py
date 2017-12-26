@@ -9,14 +9,14 @@ d = 0
 count = 0
 
 for i in range(10000):
-    if (x,y) in grid and grid[(x,y)] == '#':
+    if (x, y) in grid and grid[(x, y)] == '#':
         d = (d+1) % 4
-        grid[(x,y)] = '.'
+        grid[(x, y)] = '.'
     else:
         d = (d-1) % 4
-        grid[(x,y)] = '#'
+        grid[(x, y)] = '#'
         count += 1
-    
+
     if d == 0:
         y -= 1
     elif d == 1:
